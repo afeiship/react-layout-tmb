@@ -1,0 +1,8 @@
+.react-layout-tmb{
+  display: flex;
+  flex-direction: column;
+
+  >.flex-row{
+    flex: 1;
+  }
+}
