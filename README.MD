@@ -11,6 +11,8 @@
 
 ## usage:
 ```jsx
+import ReactLayoutTmb from 'react-layout-tmb';
+
 class App extends React.Component{
   render(){
     return (
