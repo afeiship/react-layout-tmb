@@ -12,6 +12,11 @@
 
 ## usage:
 ```jsx
+import {
+  ReactLayoutItem,
+  ReactLayoutVertical,
+} from './main';
+
 class App extends React.Component{
   render(){
     return (
