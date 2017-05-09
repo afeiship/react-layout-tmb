@@ -29,7 +29,7 @@ $justify_list:(
 
 //https://css-tricks.com/almanac/properties/j/justify-content/
 
-.react-layout-tmb{
+.react-layout-vertical{
   display: flex;
   flex-direction: column;
 
@@ -39,7 +39,7 @@ $justify_list:(
     }
   }
 
-  >.react-layout-item{
-    // flex: 1;
+  >.flex-row{
+    flex: 1;
   }
 }
