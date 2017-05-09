@@ -1,6 +1,9 @@
 import './style.scss';
-import React,{Children,cloneElement,PureComponent,PropTypes} from 'react';
+
+import React,{Children, PropTypes, PureComponent, cloneElement} from 'react';
+
 import classNames from 'classnames';
+import objectAssign from 'object-assign';
 
 export default class extends PureComponent{
   static propTypes = {
@@ -11,7 +14,7 @@ export default class extends PureComponent{
     return !inProps.height  ? {
         'className':classNames('flex-row',inProps.className)
       }: {
-      style:Object.assign({
+      style:objectAssign({
         height:inProps.height
       },inProps.style)
     };
