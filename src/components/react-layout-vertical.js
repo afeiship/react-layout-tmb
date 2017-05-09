@@ -14,7 +14,7 @@ export default class extends PureComponent{
     const {children,className,justify,...props} = this.props;
     const length = children.length;
     return (
-      <div {...props} data-justify={justify} className={classNames('react-layout-vertical',this.props.className)}>
+      <div {...props} className={classNames('react-layout-vertical',`row-justify-${justify}`,this.props.className)}>
       {children}
       </div>
     );
