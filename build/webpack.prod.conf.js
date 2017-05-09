@@ -9,8 +9,8 @@ base.entry = {
 base.output = {
   path: config.build.assetsRoot,
   publicPath: config.build.assetsPublicPath,
-  filename: 'react-layout-tmb.js',
-  library: 'ReactLayoutTmb',
+  filename: 'react-layout-vertical.js',
+  library: 'ReactLayoutVertical',
   libraryTarget: 'umd'
 }
 

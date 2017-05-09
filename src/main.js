@@ -1,7 +1,7 @@
 import ReactLayoutItem from 'components/react-layout-item';
-import ReactLayoutTmb from 'components/react-layout-tmb';
+import ReactLayoutVertical from 'components/react-layout-vertical';
 
 export {
-  ReactLayoutTmb,
+  ReactLayoutVertical,
   ReactLayoutItem
 };

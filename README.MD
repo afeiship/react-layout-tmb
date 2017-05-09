@@ -1,5 +1,5 @@
-# react-layout-tmb
-> React component for layout[top/middle/bottom].
+# react-layout-vertical
+> React component for layout[top/middle/bottom] vertical.
 
 
 ## properties:
