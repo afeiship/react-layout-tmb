@@ -1,2 +1,7 @@
+import ReactLayoutItem from 'components/react-layout-item';
 import ReactLayoutTmb from 'components/react-layout-tmb';
-export default ReactLayoutTmb;
+
+export {
+  ReactLayoutTmb,
+  ReactLayoutItem
+};
