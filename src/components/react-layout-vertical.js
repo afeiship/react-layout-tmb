@@ -1,8 +1,9 @@
 import './style.scss';
 
-import React,{Children, PropTypes, PureComponent, cloneElement} from 'react';
+import React,{Children, PureComponent, cloneElement} from 'react';
 
 import {JUSTIFY} from './const';
+import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
 export default class extends PureComponent{
@@ -12,12 +13,9 @@ export default class extends PureComponent{
   };
 
   render(){
-    const {children,className,justify,...props} = this.props;
-    const length = children.length;
+    const {className,justify,...props} = this.props;
     return (
-      <div {...props} className={classNames('react-layout-vertical',`row-justify-${justify}`,this.props.className)}>
-      {children}
-      </div>
+      <div {...props} className={classNames('react-layout-vertical',`row-justify-${justify}`,this.props.className)} />
     );
   }
 }
